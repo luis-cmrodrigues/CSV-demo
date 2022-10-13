@@ -4,13 +4,14 @@ from flask_restful import Resource, Api, reqparse
 app = Flask(__name__)
 api = Api(app)
 
-# Initial list of Fruits
+# Initial list of Fruits, feel free to replace any of them.
 FRUITS = {
-    '1': {'name': 'Apple'},
-    '2': {'name': 'Pear'},
-    '3': {'name': 'Watermelon'},
-    '4': {'name': 'Banana'},
-    '5': {'name': 'Strawberry'}
+    '1': {'name': '--- Enter your favorite fruit here ---'},
+    '2': {'name': 'Apple'},
+    '3': {'name': 'Pear'},
+    '4': {'name': 'Watermelon'},
+    '5': {'name': 'Banana'},
+    '6': {'name': 'Strawberry'}
   }
 
 class FruitsList(Resource):
