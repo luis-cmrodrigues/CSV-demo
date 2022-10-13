@@ -33,10 +33,12 @@ You will then go to the Source Control section in VSCode and initialize/clone th
 Since by default the master branch is the branch that's selected, you will get the code in master in your local repository.
 
 
-#### Step 4 - making a new branch
+#### Step 4 - making a new branch and using it
 Next you can try to create a new branch.
 You can start by going to the same "Source Control" button and expanding the options under the ... on the right of that sidebar.
-Then, just select 
+Then, just select the option "branch" and then "Create branch" and enter your branches name. This should already check out this new branch, meaning that your local repo changed from master to your new branch. 
+
+You can add a random word to this textfile, stage the change (ensure that the file goes to the part that says Staged Changes) and commit and push the branch to the remote repo.
 
 
 
